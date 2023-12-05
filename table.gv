@@ -1,0 +1,91 @@
+// shows commit history
+digraph "C:\Users\sereb\PycharmProjects\CONF\TerminalShell" {
+	graph [splines=ortho]
+	node [color=white fontcolor=white fontname=Helvetica shape=polygon style=filled]
+	edge [color="#938d87"]
+	"70c73be6cb1d48eed839e6e51743cd2385b7240b" [label="master
+70c73b
+\"smth new\"" fillcolor="#cd9f00"]
+	"93be591dff3a48c9218426a3543063c31d299fef" -> "70c73be6cb1d48eed839e6e51743cd2385b7240b"
+	"657f8fabaeb175b030b8665dc10b311633e06165" [label="657f8f
+tree" fillcolor="#159099"]
+	"70c73be6cb1d48eed839e6e51743cd2385b7240b" -> "657f8fabaeb175b030b8665dc10b311633e06165"
+	"3cfb6e04c174b2557fd095606bd5d18ab569c1e7" [label="3cfb6e" fillcolor="#e6e4e1"]
+	"657f8fabaeb175b030b8665dc10b311633e06165" -> "3cfb6e04c174b2557fd095606bd5d18ab569c1e7" [headlabel="Test.zip" labelfloat=true labelfontsize=10]
+	"732e318f8690fa58f56300e86027f26c97f9dcbc" [label="732e31" fillcolor="#e6e4e1"]
+	"657f8fabaeb175b030b8665dc10b311633e06165" -> "732e318f8690fa58f56300e86027f26c97f9dcbc" [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"93be591dff3a48c9218426a3543063c31d299fef" [label="master
+93be59
+\"smth new\"" fillcolor="#cd9f00"]
+	"74d0e7da54b6c1011bdfa9b3ff37b17560297499" -> "93be591dff3a48c9218426a3543063c31d299fef"
+	"55bd5011aa55dcbfe514eca3d1367c5563a7902f" [label="55bd50
+tree" fillcolor="#159099"]
+	"93be591dff3a48c9218426a3543063c31d299fef" -> "55bd5011aa55dcbfe514eca3d1367c5563a7902f"
+	"3cfb6e04c174b2557fd095606bd5d18ab569c1e7" [label="3cfb6e" fillcolor="#e6e4e1"]
+	"55bd5011aa55dcbfe514eca3d1367c5563a7902f" -> "3cfb6e04c174b2557fd095606bd5d18ab569c1e7" [headlabel="Test.zip" labelfloat=true labelfontsize=10]
+	eb60f6a9781e08d39a33f8195cae5c4922be0e3a [label=eb60f6 fillcolor="#e6e4e1"]
+	"55bd5011aa55dcbfe514eca3d1367c5563a7902f" -> eb60f6a9781e08d39a33f8195cae5c4922be0e3a [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"74d0e7da54b6c1011bdfa9b3ff37b17560297499" [label="master
+74d0e7
+\"smth was fixed\"" fillcolor="#cd9f00"]
+	"66f0ec4d625fbeff1c8d7ae4d12e8db5a7b3e3ee" -> "74d0e7da54b6c1011bdfa9b3ff37b17560297499"
+	"6277ddac092d747ff5937705b1caddac7e20a134" [label="6277dd
+tree" fillcolor="#159099"]
+	"74d0e7da54b6c1011bdfa9b3ff37b17560297499" -> "6277ddac092d747ff5937705b1caddac7e20a134"
+	"843ce22e082d199c5282a72812e53173f17bd176" [label="843ce2" fillcolor="#e6e4e1"]
+	"6277ddac092d747ff5937705b1caddac7e20a134" -> "843ce22e082d199c5282a72812e53173f17bd176" [headlabel="Test.zip" labelfloat=true labelfontsize=10]
+	e1feb89a1c307cd80c9a010b7cb24a22a76b80e6 [label=e1feb8 fillcolor="#e6e4e1"]
+	"6277ddac092d747ff5937705b1caddac7e20a134" -> e1feb89a1c307cd80c9a010b7cb24a22a76b80e6 [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"66f0ec4d625fbeff1c8d7ae4d12e8db5a7b3e3ee" [label="master
+66f0ec
+\"bugs related to \"ls\" command w...\"" fillcolor="#cd9f00"]
+	"7c2b36775ae097ffdf08d74439ff3d760124f4a2" -> "66f0ec4d625fbeff1c8d7ae4d12e8db5a7b3e3ee"
+	ecdecb3a552e3427dc21bcce52b59ce17f33fc9d [label="ecdecb
+tree" fillcolor="#159099"]
+	"66f0ec4d625fbeff1c8d7ae4d12e8db5a7b3e3ee" -> ecdecb3a552e3427dc21bcce52b59ce17f33fc9d
+	e1feb89a1c307cd80c9a010b7cb24a22a76b80e6 [label=e1feb8 fillcolor="#e6e4e1"]
+	ecdecb3a552e3427dc21bcce52b59ce17f33fc9d -> e1feb89a1c307cd80c9a010b7cb24a22a76b80e6 [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"7c2b36775ae097ffdf08d74439ff3d760124f4a2" [label="master
+7c2b36
+\"test.txt useless file was remo...\"" fillcolor="#cd9f00"]
+	"5f36b167f409a83d39f7a8ed5198fa7b66e8ee1f" -> "7c2b36775ae097ffdf08d74439ff3d760124f4a2"
+	"661ea4b42a86780ae2b501ba679a189c783e043c" [label="661ea4
+tree" fillcolor="#159099"]
+	"7c2b36775ae097ffdf08d74439ff3d760124f4a2" -> "661ea4b42a86780ae2b501ba679a189c783e043c"
+	a377252319a9b09dc461169852863d31aecd376f [label=a37725 fillcolor="#e6e4e1"]
+	"661ea4b42a86780ae2b501ba679a189c783e043c" -> a377252319a9b09dc461169852863d31aecd376f [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"5f36b167f409a83d39f7a8ed5198fa7b66e8ee1f" [label="master
+5f36b1
+\"actual version of shell\"" fillcolor="#cd9f00"]
+	b023249d2e25c3e3934e29d3b2563cf834b27ffc -> "5f36b167f409a83d39f7a8ed5198fa7b66e8ee1f"
+	"29cfce2333872759f01db26a21d6a2b3cff816a7" [label="29cfce
+tree" fillcolor="#159099"]
+	"5f36b167f409a83d39f7a8ed5198fa7b66e8ee1f" -> "29cfce2333872759f01db26a21d6a2b3cff816a7"
+	e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [label=e69de2 fillcolor="#e6e4e1"]
+	"29cfce2333872759f01db26a21d6a2b3cff816a7" -> e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [headlabel="test.txt" labelfloat=true labelfontsize=10]
+	a377252319a9b09dc461169852863d31aecd376f [label=a37725 fillcolor="#e6e4e1"]
+	"29cfce2333872759f01db26a21d6a2b3cff816a7" -> a377252319a9b09dc461169852863d31aecd376f [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	b023249d2e25c3e3934e29d3b2563cf834b27ffc [label="master
+b02324
+\"archive was removed\"" fillcolor="#cd9f00"]
+	"8c45322e184f98e38106892c650101362a4f823e" -> b023249d2e25c3e3934e29d3b2563cf834b27ffc
+	c29d7ef2198c53b9d36d4569342ae33daf175729 [label="c29d7e
+tree" fillcolor="#159099"]
+	b023249d2e25c3e3934e29d3b2563cf834b27ffc -> c29d7ef2198c53b9d36d4569342ae33daf175729
+	e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [label=e69de2 fillcolor="#e6e4e1"]
+	c29d7ef2198c53b9d36d4569342ae33daf175729 -> e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [headlabel="test.txt" labelfloat=true labelfontsize=10]
+	cc92ec73efe61c141d0b21a74229bc8f44073c2f [label=cc92ec fillcolor="#e6e4e1"]
+	c29d7ef2198c53b9d36d4569342ae33daf175729 -> cc92ec73efe61c141d0b21a74229bc8f44073c2f [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+	"8c45322e184f98e38106892c650101362a4f823e" [label="master
+8c4532
+\"cd algoritms were changed. Som...\"" fillcolor="#cd9f00"]
+	"37451e1dc35480e86908c4d7836cbc1b124b5bc8" [label="37451e
+tree" fillcolor="#159099"]
+	"8c45322e184f98e38106892c650101362a4f823e" -> "37451e1dc35480e86908c4d7836cbc1b124b5bc8"
+	"7a2d38f5f0020b530f39d1ae38a2f72392116aeb" [label="7a2d38" fillcolor="#e6e4e1"]
+	"37451e1dc35480e86908c4d7836cbc1b124b5bc8" -> "7a2d38f5f0020b530f39d1ae38a2f72392116aeb" [headlabel="System.zip" labelfloat=true labelfontsize=10]
+	e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [label=e69de2 fillcolor="#e6e4e1"]
+	"37451e1dc35480e86908c4d7836cbc1b124b5bc8" -> e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [headlabel="test.txt" labelfloat=true labelfontsize=10]
+	cc92ec73efe61c141d0b21a74229bc8f44073c2f [label=cc92ec fillcolor="#e6e4e1"]
+	"37451e1dc35480e86908c4d7836cbc1b124b5bc8" -> cc92ec73efe61c141d0b21a74229bc8f44073c2f [headlabel="vshell.py" labelfloat=true labelfontsize=10]
+}

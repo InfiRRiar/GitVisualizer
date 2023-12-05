@@ -1,0 +1,28 @@
+OSI (Open System Interconnection) is a model that gives an idea of
+how data is transmitted over networks. It was adopted in 1984 and has been widely used for troubleshooting if a network problems occurs. The OSI model consists of seven layers and at each layer there are a set of protocols.
+
+At the very top of the OSI model there is the application layer. This is the only part that the user sees. With the help of application layer protocols, a user can perform different activities.
+
+
+
+The presentation layer ensures that the message is transmitted in a language that the receiving computer can interpret. This layer also manages the encryption and decryption and then compresses the data it receives from the application layer.
+
+
+
+The session layer creates communication channels called sessions. It has to ensure that the sessions are open, works correctly and close them after the transfer is done. If the session is interrupted, devices can resume the data transfer from the last checkpoint made by this layer.
+
+
+
+The transport layer is responsible for transferring data, providing error-checking mechanisms and data flow control. This layer breaks the data it gets from the session layer into transportable segments. The transport layer also re-transmits the data if an error is found.
+
+
+
+The network layer manages data transfer between two devices on the different networks. The segments received from the transport layer are further processed to form packets. The network layer uses logical addresses to route data to a destination node. IP addresses of the receiving and sending computers are added at this layer.
+
+
+
+The data link layer manages data transfer between two devices on the same network. It is also responsible for flow control and error control in intra-network communication. The packets received from the network layer are further divided into frames and transmitted to the host using its MAC address.
+
+
+
+The physical layer is the lowest layer of the OSI model and it is responsible for transmitting raw bits of data from one node to the other over physical cable or wireless connection.
