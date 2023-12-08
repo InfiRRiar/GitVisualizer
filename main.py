@@ -34,8 +34,6 @@ repo = Repo(path)
 di = Digraph(path, "shows commit history", edge_attr={"color": "#938d87"}, graph_attr={"splines": "ortho"},
              node_attr={"fontcolor": "white", "color": "white", "fontname": "Helvetica", "style": "filled",
                         "shape": "polygon"})
-
-
 for commit in repo.iter_commits():
     branch = get_branch(commit)
     message = get_message(commit)
@@ -43,7 +41,8 @@ for commit in repo.iter_commits():
     name = f"{str(branch)}\n{str(commit)[:6]}\n{message}"
     di.node(str(commit), name, fillcolor="#cd9f00")
     if commit.parents != tuple():
-        di.edge(str(list(commit.parents)[0]), str(commit))
+        for parent in commit.parents:
+            di.edge(str(parent), str(commit))
     queue = [[commit.tree, str(commit)]]
 
     while len(queue) != 0:
@@ -52,7 +51,7 @@ for commit in repo.iter_commits():
         di.edge(parent, str(current))
 
         for blob in current.blobs:
-            di.node(str(blob), str(blob)[:6], fillcolor="#e6e4e1")
+            di.node(str(blob), str(blob)[:6], fillcolor="#ffbe98")
             di.edge(str(current), str(blob), headlabel=blob.name, labelfloat="true", labelfontsize="10")
 
         for tree in current.trees:
